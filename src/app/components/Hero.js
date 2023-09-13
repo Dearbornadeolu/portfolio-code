@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Hero = () => {
   return (
-    <div className='pt-[4rem] px-[10px] md:px-[90px] md:flex  md:flex-row items-center md:-mt-11 w-[100%]'>
+    <div className=' px-[10px] md:px-[90px] md:flex  md:flex-row items-center md:-mt-11 w-[100%]'>
         <div className='font-bold'>
           <h1 className='text-[3rem] md:text-[5rem]'>
             Hi<span className='text-gray-300'>,</span>
@@ -15,7 +15,7 @@ const Hero = () => {
           </p>
           <div className='mt-[3rem] md:mb-4'>
             <a href="mailto:dearbornadeyeni@example.com" className=' bg-purple-800 text-white p-[1rem]'>Get in Touch</a>
-            <a href="your_file_link_here" className='ml-[10px] border-2 border-black p-[1rem] font-semibold'>Download CV</a>
+            <a href="yhttps://drive.google.com/file/d/1EWVh5Udw0Vq9Ansq1NDiY0A-VViIcjng/view?usp=sharing" className='ml-[10px] border-2 border-black p-[1rem] font-semibold'>Download CV</a>
           </div>
         </div>
         <div className='background-div w-[20rem] m-auto md:w-[1000px]'>

@@ -4,7 +4,7 @@ const Testimonial = () => {
   return (
     <div className='mt-[100px] '>
     <h1 className='text-black text-[2.5rem] text-center font-bold'>What Client Say</h1>
-    <div className=' border-2 border-black w-[90%]  md:w-[50%] mt-[80px] m-auto p-[30px] h-[360px] md:h-[400px]'>
+    <div className=' border-2 border-black w-[90%]  md:w-[50%] mt-[80px] m-auto p-[30px] h-[390px] md:h-[400px]'>
       <Image src='/assets/quote.png' alt='Dearboen Adeyeni' width={50} height={50} />
       <p className='text-[1.5rem] pt-[30px] w-[80%] md:w-[50%]'>
         Dearborn Knows his onions very Well. I recommend him

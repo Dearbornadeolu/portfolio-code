@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Nav = () => {
 
   return (
-    <nav className=' p-3 md:px-[90px] flex justify-center sticky top-0  bg-white shadow-lg items-center'>
+    <nav className=' p-3 md:px-[90px] flex justify-center sticky top-0  bg-white shadow-lg items-center z-50'>
       
       <ul className={` flex justify-center gap-2 items-center align-middle md:gap-10 `}>
         <li>
