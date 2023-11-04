@@ -8,45 +8,14 @@ const Recent = () => {
         <h1 className='text-center text-[18px] md:text-[30px] font-bold'>Recent Projects</h1>
         <ul className="flex flex-col md:flex-row justify-center align-middle items-center gap-5 mt-[50px]">
         {projectData.map((project, index) => (
-          <li key={index} className='flex flex-col text-black w-[300px]'>
+          <li key={index} className='flex flex-col text-black w-1/2 bg-white shadow-xl p-2 rounded-2xl min-h-[300px]'>
            <div className="flex flex-col items-center">
-            <iframe src={project.link} title="SKIPPER PAY" scrolling="no" style={{maxHeight:"300px", maxWidth: "300px", overflow:"hidden", border:"none"}}></iframe>
+            <iframe src={project.link} title={project.name} scrolling="no" style={{height:"250px", maxWidth: "300px", overflow:"hidden", border:"none"}} ></iframe>
             <p>{project.description}</p>
            </div>
           </li>
         ))}
       </ul>
-        {/* <ul className=' flex flex-col md:flex-row justify-center align-middle items-center gap-5 mt-[50px]'>
-          <li className='flex flex-col text-black w-[300px]  '>
-            <Link href="/" className='hover:bg-white hover:shadow-2xl'>
-              <Image src='/assets/Corporate-land.jpg' alt='Dearboen Adeyeni' width={300} height={300} />
-              <h1 className='font-bold  mt-4  p-[10px]'>Corporate Website Development</h1>
-              <p className='p-[10px] text-gray-500'>You Can have a website Fully Customized  for your brand</p>
-            </Link>
-          </li>
-          <li className='flex flex-col text-black w-[300px]'>
-            <Link href="/" className='hover:bg-white hover:shadow-2xl'>
-              <Image src='/assets/bremen-ui.jpg' alt='Dearboen Adeyeni' width={300} height={300} />
-              <h1 className='font-bold  mt-4  p-[10px]'>Bremen Consolidate Website</h1>
-              <p className='p-[10px] text-gray-500'>Blogsite Redesign and Maintanence with Adsense integrated</p>
-            </Link>
-          </li>
-
-          <li className='flex flex-col text-black w-[300px]'>
-            <Link href="/" className='hover:bg-white hover:shadow-2xl'>
-              <Image src='/assets/admin.jpg' alt='Dearboen Adeyeni' width={300} height={300} />
-              <h1 className='font-bold  mt-4  p-[10px]'>Admin Panel</h1>
-              <p className='p-[10px] text-gray-500'>I use React and Tailwind to develop  an Admion Panel for a company. its fully functional with many features</p>
-            </Link>
-          </li>
-          <li className='flex flex-col text-black w-[300px]'>
-            <Link href="/" className='hover:bg-white hover:shadow-2xl'>
-              <Image src='/assets/Skipper.jpg' alt='Dearboen Adeyeni' width={300} height={300} />
-              <h1 className='font-bold  mt-4  p-[10px]'>Skipper Pay</h1>
-              <p className='p-[10px] text-gray-500'>A Frontend Web Devloper at Skipper. I Developed the ui with the QR code Converter to help people generate QR codes for their Bank Details</p>
-            </Link>
-          </li>
-        </ul> */}
       </div>
   )
 }
