@@ -12,8 +12,8 @@ const Recent = () => {
   };
 
   const allProjects = projectData.map((project, index) => (
-    <li key={index} className="flex flex-col text-black  bg-white shadow-xl p-2 rounded-2xl min-h-[300px]">
-      <div className="flex flex-col items-center">
+    <li key={index} className="flex flex-col text-black  bg-white shadow-xl p-2 rounded-2xl w-[300px] min-h-[300px] m-auto">
+      <div className="flex flex-col items-center ]">
         <iframe
           src={project.link}
           title={project.name}
@@ -28,9 +28,9 @@ const Recent = () => {
   const visibleProjectItems = allProjects.slice(0, visibleProjects);
 
   return (
-    <div className="pt-[4rem] px-[90px]" id="recents">
+    <div className="pt-[4rem] m-auto" id="recents">
       <h1 className="text-center text-[18px] md:text-[30px] font-bold">Recent Projects</h1>
-      <ul className="grid grid-cols-1 md:grid-cols-3 gap-5 justify-center items-center mt-5">
+      <ul className="grid grid-cols-1 md:grid-cols-3 gap-5 justify-center items-center mt-5 m-auto align-middle">
         {visibleProjectItems}
       </ul>
       {visibleProjects < allProjects.length && (
