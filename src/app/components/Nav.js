@@ -18,6 +18,11 @@ const Nav = () => {
           </Link>
         </li>
         <li>
+          <Link href="Service">
+            Service
+          </Link>
+        </li>
+        <li>
 
           <button className='' >
             Contact 
