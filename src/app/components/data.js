@@ -14,7 +14,11 @@ const projectData = [
       description: "A project being worked on a team of 4. The project is aimed at helping Techies build and sell whatever they build or design as the case maybe.",
       link: "https://shop-soft.vercel.app/",
     },
-    // Add more projects as needed
+    {
+        name:"ADMIN DASHBOARD",
+        description:"An Admin Dashboard to get users data from firebase",
+        link:"https://admin-dashboard-one-gamma.vercel.app"
+    }
   ];
   
   export default projectData;
