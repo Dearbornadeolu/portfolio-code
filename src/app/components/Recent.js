@@ -35,7 +35,7 @@ const Recent = () => {
       </ul>
       {visibleProjects < allProjects.length && (
         <div className="text-center mt-3">
-          <button onClick={showMoreProjects}>Show More Projects</button>
+          <button onClick={showMoreProjects} className="bg-black text-white p-3 rounded-3xl">Show More Projects</button>
         </div>
       )}
     </div>
