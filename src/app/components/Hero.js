@@ -11,7 +11,7 @@ const Hero = () => {
             I am <span className='text-purple-800'>Dearborn Adeyeni</span>
           </h1>
           <p className='font-normal text-[1rem] mt-3 md:mt-0  md:text-lg md:w-[94%]'>
-            Software Engineer who Specializes in Web Development, Chrome Extension Development and a Cyber Security Enthuatist. I write Html, Css, Javascript, Typescript, ReactJs, NextJs with Firebase. I also Design Websites with Wordpress writing basic Php.
+            Software Engineer who Specializes in Web Development, Chrome Extension Development and a Cyber Security Enthuatist. I write Javascript, ReactJs, NextJs, Python and Firebase. I also Design Websites with Wordpress writing basic Php.
           </p>
           <div className='mt-[3rem] md:mb-4'>
             <a href="mailto:dearbornadeyeni@example.com" className=' bg-purple-800 text-white p-[1rem]'>Get in Touch</a>
