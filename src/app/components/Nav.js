@@ -18,8 +18,8 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link href="Service">
-            Service
+          <Link href="Pricing">
+            Pricing
           </Link>
         </li>
         <li>
