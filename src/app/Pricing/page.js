@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Nav from '../components/Nav'
 import Website from './comp/Website'
 import Chrome from './comp/Chrome'
+import Wordpress from './comp/Wordpress'
 
 const Page = () => {
     return (
@@ -20,6 +21,7 @@ const Page = () => {
                     <p className='text-white text-[1.3rem]'>Explore our range of packages designed to meet your web development and software needs. Whether its building a website, crafting a Chrome extension, creating email templates, or maintaining your online presence, we have the right solution for you.</p>
                     <Website/>
                     <Chrome/>
+                    <Wordpress/>
                 </div>
             </div>
         </div>
