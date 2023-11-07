@@ -13,7 +13,7 @@ const Page = () => {
                 <Image src="/assets/illustrarion.jpg" alt='ilustration' height="300" width="350" />
                 <div>
                     <h1 className='text-[2.5rem] font-bold '>Affordable <span className='text-purple-800 '>Software Services</span>, Tailored to Your Needs</h1>
-                    <p className='pb-[10px]'>Are you looking for top-notch <span className='text-purple-800 '>software development services</span> that will not break the bank? We have got you covered!</p>
+                    <p className='pb-[30px]'>Are you looking for top-notch <span className='text-purple-800 '>software development services</span> that will not break the bank? We have got you covered!</p>
                 </div>
             </div>
             <div className='bg-black text-white'>
