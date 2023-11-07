@@ -7,6 +7,7 @@ const Website = () => {
     const [isPopupOpen, setIsPopupOpen] = useState(false);
     const [selectedOption, setSelectedOption] = useState('Option 1');
     const [userInput, setUserInput] = useState('');
+    const [coupon, setCoupon] = useState('');
 
     const openPopup = () => {
         setIsPopupOpen(true);
@@ -135,6 +136,15 @@ const Website = () => {
                                 <option value="Option 3">$2500</option>
                                 <option value="Option 4">Custom</option>
                             </select>
+                            {selectedOption === 'Option 4' && (
+                                <input
+                                    type="text"
+                                    value={coupon}
+                                    onChange={(e) => setCoupon(e.target.value)}
+                                    placeholder="Enter coupon code"
+                                    className="w-full p-2 mb-2 border rounded-md"
+                                />
+                            )}
                             <input
                                 type="text"
                                 value={userInput}
@@ -145,6 +155,7 @@ const Website = () => {
                             <button
                                 className="bg-purple-800 text-white py-2 px-4 rounded-md mr-2"
                                 onClick={submitRequest}
+                                disabled={selectedOption === 'Option 4'}
                             >
                                 Submit
                             </button>
