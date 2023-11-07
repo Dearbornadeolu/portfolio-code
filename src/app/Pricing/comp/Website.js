@@ -3,7 +3,7 @@ import React from 'react'
 const Website = () => {
     return (
         <div>
-            <h1 className='text-center text-[1.8rem] font-semibold mt-3'>SOFTWARE DEVELOPMENT</h1>
+            <h1 className='text-center text-[1.8rem] font-semibold mt-8 mb-6'>SOFTWARE DEVELOPMENT</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 justify-center items-center mt-5 m-auto align-middle">
                 <div className='w-full border-2  p-3'>
                     <div className='flex'>

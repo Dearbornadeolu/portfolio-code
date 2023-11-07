@@ -2,8 +2,8 @@ import React from 'react'
 
 const Wordpress = () => {
   return (
-    <div className='mt-8'>
-      <h1 className='text-center text-[1.8rem] font-semibold mt-3'> WORDPRESS WEB DESIGN </h1>
+    <div className='mt-[40px]'>
+      <h1 className='text-center text-[1.8rem] font-semibold mt-3 mb-[39]'> WORDPRESS WEB DESIGN </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 justify-center items-center mt-5 m-auto align-middle">
         <div className='w-full border-2  p-3'>
           <div className='flex'>

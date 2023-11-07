@@ -3,6 +3,7 @@ import Nav from '../components/Nav'
 import Website from './comp/Website'
 import Chrome from './comp/Chrome'
 import Wordpress from './comp/Wordpress'
+import WebMain from './comp/WebMain'
 
 const Page = () => {
     return (
@@ -18,10 +19,11 @@ const Page = () => {
             <div className='bg-black text-white'>
                 <div className='md:w-[90%] m-auto p-6'>
                     <h1 className='text-white text-[2rem] font-semibold text-center'>Choose Your Perfect Plan</h1>
-                    <p className='text-white text-[1.3rem]'>Explore our range of packages designed to meet your web development and software needs. Whether its building a website, crafting a Chrome extension, creating email templates, or maintaining your online presence, we have the right solution for you.</p>
+                    <p className='text-white text-[1.3rem] mb-14'>Explore our range of packages designed to meet your web development and software needs. Whether its building a website, crafting a Chrome extension, creating email templates, or maintaining your online presence, we have the right solution for you.</p>
                     <Website/>
                     <Chrome/>
                     <Wordpress/>
+                    <WebMain/>
                 </div>
             </div>
         </div>
