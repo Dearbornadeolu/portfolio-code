@@ -8,13 +8,8 @@ const Nav = () => {
       
       <ul className={` flex justify-center gap-2 items-center align-middle md:gap-10 `}>
         <li>
-          <Link href="#about">
-            About 
-          </Link>
-        </li>
-        <li>
-          <Link href="#recents">
-            Showcase
+          <Link href="/">
+            Home 
           </Link>
         </li>
         <li>
