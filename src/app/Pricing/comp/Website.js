@@ -83,7 +83,7 @@ const Website = () => {
                         </div>
                     </div>
                     <div className=' mt-2 w-fit m-auto'>
-                        <button className='bg-purple-800 py-1 px-5'>GET NOW</button>
+                        <button className='bg-purple-800 py-1 px-5' onClick={openPopup}>GET NOW</button>
                     </div>
                 </div>
                 <div className='w-full border-2  p-3'>
@@ -111,7 +111,7 @@ const Website = () => {
                         </div>
                     </div>
                     <div className=' mt-2 w-fit m-auto'>
-                        <button className='bg-purple-800 py-1 px-5'>GET NOW</button>
+                        <button className='bg-purple-800 py-1 px-5' onClick={openPopup}>GET NOW</button>
                     </div>
                 </div>
             </div>
